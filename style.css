@@ -1,0 +1,18 @@
+ :root{
+    --color_1:rgba(55, 55, 240, 0.986);
+    --color_2:rgba(0, 0, 0, 0.486);
+ }
+ h1{
+    color: blue;
+    text-transform: capitalize;
+}
+hr{
+    color: var(--color_1);
+}
+h2{
+    color: var(--color_2);
+    text-decoration: solid 2px;
+}
+.ecritur{
+    text-align: center;
+}
